@@ -1,4 +1,181 @@
 body {
+    font-family: Roboto;
+    color: #212121;
+    width: 1600px;
+}
+
+/*general*/
+
+/*links*/
+
+.links {
+    text-decoration: none;
+    color: #212121;
+}
+
+.links:focus,
+.links:hover {
+    color: #2196F3;
+}
+
+.markers {
+    list-style-type:none;
+}
+
+/*buttons*/
+
+.buttons {
+    cursor: pointer;
+    color: #212121;
+    background-color: #F5F4FA;;
+    font-size: 16px;
+    text-align: center;
+
+    height: 38px;
+}
+
+.order-button {
+    color: #ffffff;
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons:focus,
+.buttons:hover {
+    background-color: #2196F3;
+    color: #FFFFFF
+}
+
+.title-second {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* header*/
+
+/* logo */
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-footer {
+       color: #ffffff;
+}
+    
+.logo-blue {
+    color: #2196F3;
+}
+
+/* navigation */
+
+.navigation {
+    font-size: 14px;
+}
+
+/* main section */
+
+.main-section {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* text-align: center;*/
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+/*our advantages*/
+
+.title-hidden {
+    display:none;
+}
+
+.advantag-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantages-section {
+    font-size: 16px;
+    color: #757575;
+}
+      
+/*team*/
+
+/*
+.team-section {
+    width: 1600px;
+    height: 648px;
+    background-color: #F5F4FA;
+}
+*/
+
+.team-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.position {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+        
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+
+/* footer */
+
+.footer-section {
+    background-color:#2F303A;
+    color: #ffffff;
+    
+    width: 1600px;
+    height: 252px;
+}
+
+
+.links-footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* .description {} */
+
 
     
-}
