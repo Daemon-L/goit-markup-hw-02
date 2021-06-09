@@ -28,10 +28,13 @@ body {
     cursor: pointer;
     color: #212121;
     background-color: #F5F4FA;;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     text-align: center;
-
+    letter-spacing: 0.03em;
     height: 38px;
+    border-radius: 4px;
 }
 
 .order-button {
@@ -152,7 +155,6 @@ body {
     color: #757575;
 }
 
-
 /* footer */
 
 .footer-section {
@@ -162,7 +164,6 @@ body {
     width: 1600px;
     height: 252px;
 }
-
 
 .links-footer {
     font-style: normal;
@@ -174,8 +175,47 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-
+.address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 /* .description {} */
+
+/*portfolio*/
+
+/*filters-section*/
+
+.filters-section {
+    
+}
+
+/*work section*/
+
+.works-section {
+
+}
+
+.works-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.works-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px; 
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
     
