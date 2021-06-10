@@ -13,9 +13,10 @@ body {
     color: #212121;
 }
 
-.special-links {
+/*.special-links {
     color: #2196F3;
 }
+*/
 
 .links:focus,
 .links:hover {
@@ -88,15 +89,15 @@ body {
     font-size: 14px;
 }
 
-/* main section */
+/* heroes section */
 
-.main-section {
+.heroes-section {
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
 }
 
-.main-title {
+.heroes-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
