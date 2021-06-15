@@ -2,19 +2,21 @@
     --primary-font-color: #757575;
     --secondary-font-collor: #212121;
 
-    --primary-back-color: #FFFFFF;
+    --primary-back-color: #fff;
     --secondary-back-color: #2F303A;
+    
     --accent-color: #2196F3;
 }
 
-
 body {
-    font-family: Roboto, sans-serif;
-    color: var(--primary-font-color);
-    background-color: var(--primary-back-color);
-    
     width: 1600px;
-    letter-spacing: 0.03em;
+    letter-spacing: .03em;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--primary-font-color);
+
+    background-color: var(--primary-back-color);    
 }
 
 /* common */
@@ -23,8 +25,8 @@ body {
 .links {
     text-decoration: none;
     color: var(--secondary-font-collor);
-
-    letter-spacing: 0.02em;
+    letter-spacing: .02em;
+    line-height: 1.14;
 }
 
 .active-links,
@@ -40,31 +42,31 @@ body {
 /*buttons*/
 
 .buttons {
-    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.63;
 
     background-color: #F5F4FA;
 
-    font-size: 16px;
- }
+    cursor: pointer;
+}
 
 .buttons:focus,
 .buttons:hover {
-    background-color: var(--accent-color);
-    color: var(--primary-back-color)
+    color: var(--primary-back-color);
+    background-color: var(--accent-color); 
 }
 
 .title-hidden {
     display: none;
 }
 
-.title-section {
+.regular-title {
     font-size: 36px;
     line-height: 1.17;
     color: var(--secondary-font-collor);
 }
 
 /* header*/
-
 /*.header-section { }*/
 
 /* logo */
@@ -86,120 +88,107 @@ body {
 }
 
 /* navigation */
-
-.navigation {
-    font-size: 14px;
-}
+/* .navigation {  } */
 
 /* heroes section */
 
 .heroes-section {
-    background-color: var(--secondary-back-color);
     width: 1600px;
     height: 600px;
+
+    background-color: var(--secondary-back-color);
 }
 
 .heroes-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: .06em;
     color: var(--primary-back-color);
+    text-transform: uppercase;
 }
 
 .heroes-button {
-    color: var(--primary-back-color);
-    background-color: var(--accent-color);
-
     width: 200px;
     height: 50px;
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: .06em;
+
+    color: var(--primary-back-color);
+    background-color: var(--accent-color);
+}
+
+.heroes-button:hover,
+.heroes-button:focus {
+    background-color: #188CE8;
 }
 
 /*advantages-section*/
 
 .advantag-title {
     color: var(--secondary-font-collor);
-    font-size: 14px;
+    font-size: 14px;  /* перебивает font-size от браузера */
     line-height: 1.14;
-
     text-transform: uppercase;
 }
 
 .advantages-section {
-    font-size: 14px;
     line-height: 1.71;
 }
 
-/* work-section */
-/* .work-section { } */
+/* engage-section */
+/* .engage-section { } */
 
-     
 /*team-section*/
 
-.team-title {
-    font-weight: 500;
+.team-section {
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.19;
+}
+
+.team-name {
+    font-size: 16px; /* перебивает font-size от браузера */
+    font-weight: 500;
     color: #212121;
 }
 
-.position {
-    font-size: 16px;
-    line-height: 1.19;
-    color: #757575;
-}
+/* .position { } */
 
 /* footer */
 
 .footer-section {
     background-color:var(--secondary-back-color);
-    color: var(--primary-back-color);
-    
-    width: 1600px;
-    height: 252px;
+    line-height: 1.71;
 }
 
 .links-footer {
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255,255,255,.6);
 }
 
 .address{
-    font-size: 14px;
-    line-height: 1.7;
-    color: #FFFFFF;
+    color: var(--primary-back-color)
 }
 
 /*portfolio*/
+
 /*filters-section*/
+/* .filters-section { } */
 
-.filters-section {
-
-}
-
-/*work section*/
-
-.works-section {
-
-}
+/*works section*/
+/* .works-section { } */
 
 .works-title {
-    font-style: normal;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
+    letter-spacing: .06em;
+    color: var(--secondary-font-collor)
 }
 
-.works-description {
-    font-style: normal;
-    font-weight: 400;
+.works-type {
     font-size: 16px;
-    line-height: 1.88; 
-    color: #757575;
+    line-height: 1.87; 
 }
 
-
-/* .description {} */
+/* .works-description {} */
